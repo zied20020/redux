@@ -1,0 +1,126 @@
+header {
+  z-index: 1;
+  display: flex;
+  position: relative;
+  top: 0;
+  background: #6a1b9a;
+  justify-content: space-between;
+  padding: 12px;
+  margin-left: -20px;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+h2{ 
+  color: #00000094;
+}
+.navmenu {
+  position: relative;
+  left: 42%;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.p {
+  font-family: courier;
+  font-size: 1000px;
+  padding: 20px;
+}
+li {
+  display: block;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+}
+
+.li {
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  margin-top: 1%;
+  margin-left: 10%;
+  margin-right: 10%;
+  list-style-type: none;
+  background: #eceff1;
+  font-size: 18px;
+  transition: 0.2s;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.li:hover {
+  background: #e1e4e6ca;
+}
+body {
+  background-color: #b3c1c89d;
+}
+.pNav {
+  z-index: 1;
+  position: relative;
+  top: 75px;
+  width: 100%;
+  margin-left: -20px;
+  padding-right: 28px;
+  background: #eceff1;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.219);
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+}
+.filter {
+  display: flex;
+  justify-content: space-around;
+}
+a {
+  padding: 19px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #b3c1c89d;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+.btn {
+  background-color: #6a1b9a;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+
+.input {
+  height: 50px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  margin-left: 50px;
+  margin-right: 20px;
+}
+.Binput {
+  width: 70%;
+  height: 60px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+
+.list {
+  position: relative;
+  bottom: -150px;
+}
